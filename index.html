@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>My Personal Website</title>
-</head>
-<body>
-    <div>
-        <div>
-            <h1>Parker Townsend</h1>
-            <hr>
-        </div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>
-                <h2>Musician, Software Engineer, Scholar</h2>
-                <p>
-                    Interested in making intricate robotic systems, increasing web development, and strengthening cyber security through strong team effort.
-                </p>
+    <head>
+        <title>My Personal Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="name">
+                <h1>Parker Townsend</h1>
+                <hr>
             </div>
-            <img src="images/me-img.jpeg">
+            <div class="menu">
+                <ul>
+                    <li class="menuItem"><a href="index.html">Home</a></li>
+                    <li class="menuItem"><a href="about.html">About</a></li>
+                    <li class="menuItem"><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
         </div>
-        <h1>"Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning." <span>- Albert Einstein</span></h1>
-    </div>
-    <div>
-        <img src="images/X.png">
-        <img src="images/instagram.png">
-        <img src="images/youtube.png">
-    </div>
+        <div class="homeContent">
+            <div class="content1">
+                <div class="content2">
+                    <h2>Musician, Software Engineer, Scholar.</h2>
+                    <p>
+                        Interested in making intricate robotic systems, increasing web development, and strengthening cyber security through strong team effort.
+                    </p>
+                </div>
+                <img class="meImg imgBack" src="images/me-img.jpeg">
+            </div>
+            <h1 class="quote"><span class="ital">"Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning." </span></h1>
+            <h1 class="quote">- Albert Einstein</h1>
+            
+        </div>
+        <div class="footer">
+            <a href="https://twitter.com/LiteralParker"><img class="footerImg" src="images/X.png" width="75px"></a>
+            <a href="https://www.instagram.com/theparkertownsend/"><img class="footerImg" src="images/instagram.png" width="90px"></a>
+            <a href="https://www.youtube.com/channel/UCvnpqcPhnkf7GSsAhABDn0Q"><img class="footerImg" src="images/youtube.png" width="100px"></a>
+        </div>
 </body>
 </html>

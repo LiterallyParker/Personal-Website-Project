@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.homeContent h1 {
+    margin: 0px 100px 0px;
+}
+
+.header h1 {
+    -webkit-text-stroke: 0.5px white;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+h2 {
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Protest Strike', sans-serif;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 44, 44);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 99%;
+    height: 10%;
+    border-bottom: solid;
+}
+.header a {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer {
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 35, 35);
+    border-top: solid;
+}
+.footerImg {
+    padding: 10px 20px 10px;
+}
+
+hr {
+    border: solid white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.content2 {
+    padding-top: 150px;
+}
+
+.content2 p {
+    font-size: 2em;
+}
+
+.content1 {
+    display: flex;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin: 10px 100px 30px;
+    padding: 10px;
+}
+.ital {
+    font-style: italic;
+}
+.quote {
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+    font-weight: 200;
+    -webkit-text-stroke: black 3px;
+    border: solid 10px;
+    border-top: none;
+    border-bottom: none;
+    background-color: maroon;
+    justify-content: center;
+    text-align: center;
+}
+.homeContent {
+    margin-bottom: 200px;
+}
+.meImg {
+    width: 250px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.imgBack {
+    background-color: maroon;
+    padding: 50px;
+    border: solid;
+}
+
+.section {
+    border: solid;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 198, 192);
+}
+.pImg {
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    text-align: center;
+
+}
+
+.content3 {
+    display: flex;
+}
+
+.intro {
+    margin-top: 200px;
+}
+
+.bottomSection {
+    margin-bottom: 200px;
+}
+
+.bottomImg {
+    margin-bottom: 50px;
+}
