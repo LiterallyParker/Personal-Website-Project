@@ -1,59 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
-
-body::-webkit-scrollbar {
+html {
+    background-color: #fbf5f3;
+    font-family: 'Protest Strike', sans-serif;
+}
+::-webkit-scrollbar {
     display: none;
 }
-
-h1 {
-    font-size: 75px;
+.container {
+    margin: 10vh 5vw 13vh;
 }
-
-.homeContent h1 {
-    margin: 0px 100px 0px;
-}
-
-.header h1 {
-    -webkit-text-stroke: 0.5px white;
-    font-family: 'Protest Strike', sans-serif;
-}
-
-h2 {
-    font-family: 'Protest Strike', sans-serif;
-    font-weight: 100;
-    font-size: 3em;
-    padding: 30px;
-    margin: 30px;
-    text-align: center;
-}
-
 .header {
-    font-family: 'Protest Strike', sans-serif;
+    background-color: #c42847;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(255, 44, 44);
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 99%;
-    height: 10%;
-    border-bottom: solid;
+    border-bottom: solid #000022 .5px;
 }
-.header a {
+h1 {
     color: white;
-    -webkit-text-stroke: 1px black;
+    font-size: 3rem;
+    padding: 0;
+    -webkit-text-stroke: black 1px;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 1.5rem;
+    padding: 0 10px;
+    display: inline-block;
+}
+a {
+    color: white;
     text-decoration: none;
-    cursor: pointer;
+}
+a:hover {
+    color: maroon;
+}
+
+.footer a {
+    -webkit-text-stroke: black 1.5px;
 }
 .footer {
-    padding: 10px;
+    font-size: 3rem;
+    letter-spacing: 4vw;
+    padding: 2vh 5vw;
+    background-color: #c42847;
     display: flex;
     position: fixed;
     bottom: 0;
@@ -61,106 +63,112 @@ h2 {
     right: 0;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 35, 35);
-    border-top: solid;
+    border-top: solid #000022 0.5px;
 }
-.footerImg {
-    padding: 10px 20px 10px;
+h2 {
+    color: white;
+    -webkit-text-stroke: black .5px;
 }
-
-hr {
-    border: solid white;
+p {
+    color: white;
+    -webkit-text-stroke: black 1px;
 }
-
-ul {
-    list-style: none;
+.content {
+    margin: 20px;
+    padding: 40px;
+    background-color: #de3c4b;
+    font-size: 1.5rem;
 }
-
-li {
-    display: inline-block;
-    font-size: 2em;
+.content p {
     padding: 20px;
 }
-
-.content2 {
-    padding-top: 150px;
-}
-
-.content2 p {
-    font-size: 2em;
-}
-
-.content1 {
+.intro {
     display: flex;
-}
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    margin: 10px 100px 30px;
     padding: 10px;
 }
-.ital {
-    font-style: italic;
+.meImg {
+    padding: 20px;
+    background-color: #de3c4b;
 }
-.quote {
-    color: white;
-    font-family: 'Protest Strike', sans-serif;
-    font-weight: 200;
-    -webkit-text-stroke: black 3px;
-    border: solid 10px;
-    border-top: none;
-    border-bottom: none;
-    background-color: maroon;
+input {
+    margin: 5px;
+    font-size: 2rem;
+}
+textarea {
+    font-size: 2rem;
+    resize: none;
+}
+form {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.req {
+    color: red;
+}
+#submit {
+    color: white;
+    background-color: #de3c4b;
+    font-size: 3rem;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 10% 3%;
+    padding: 5%;
+    font-size: 3rem;
+    background-color: #de3c4b;
+    border: solid #000022 .5px;
+}
+.title h2 {
+    color: white;
     text-align: center;
 }
-.homeContent {
-    margin-bottom: 200px;
-}
-.meImg {
-    width: 250px;
-    margin-bottom: 200px;
-    margin-right: 150px;
-    margin-top: 200px;
-    margin-bottom: 100px;
-}
-.imgBack {
-    background-color: maroon;
-    padding: 50px;
-    border: solid;
-}
-
-.section {
-    border: solid;
-    margin: 100px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 198, 192);
-}
-.pImg {
-    display: flex;
-    margin-right: 50px;
-    justify-content: center;
-    align-items: center;
+.visualLink {
+    color: purple;
+    -webkit-text-stroke: white 0.5px;
+    text-decoration: underline;
 }
 .center {
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
 }
-
-.content3 {
-    display: flex;
+.content a {
+    color: darkred;
 }
-
-.intro {
-    margin-top: 200px;
+.content p {
+    font-size: 0.75rem;
 }
-
-.bottomSection {
-    margin-bottom: 200px;
+h3 {
+    padding: 5%;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
 }
-
-.bottomImg {
-    margin-bottom: 50px;
+@media (max-height: 1050px) {
+    .content p {
+        font-size: 2rem
+    }
+    .title {
+        font-size: 2rem;
+        padding: 2%;
+        margin: 10% 20% 2%;
+    }
+    .input {
+        font-size: .5rem;
+    }
+    input {
+        font-size: 1.5rem;
+    }
+    textarea {
+        font-size: 1.5rem;
+    }
+    #submit {
+        font-size: 1rem;
+    }
 }
